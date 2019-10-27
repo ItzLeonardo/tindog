@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 4%;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: 'Montserrat-Light';
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.app-image {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-family: 'Montserrat-Bold';
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 14%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px 170px;
+}
+
+.pricing-box {
+  padding: 5% 3%;
+}
+
+@media (max-width: 1020px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .app-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+
+  #pricing {
+    padding: 10% 25%;
+  }
+
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Montserrat-Black';
+  padding: 5rem;
+}
+
+.cta-para {
+  font-size: 3rem;
+  padding: 2rem;
+  color: #fff;
+}
+.cta-button {
+  margin: 1rem 1rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 5rem 2rem 1rem;
+}
+
+.footer-icon {
+  margin: 1%;
+  text-decoration: none;
+}
+
+.footer-para {
+font-size: 80%;
+margin-top: 1%;
+}
